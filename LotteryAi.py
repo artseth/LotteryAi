@@ -102,7 +102,7 @@ def main():
    train_model(model, train_data, val_data)
    
    # Predict numbers using trained model 
-   predicted_numbers = predict_numbers(, val_data, num_features)
+   predicted_numbers = predict_numbers(model, val_data, num_features)
    
    # Print predicted numbers 
    print_predicted_numbers(predicted_numbers)
